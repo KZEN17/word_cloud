@@ -33,7 +33,8 @@ class ScatterApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Scatter Demo',
+      debugShowCheckedModeBanner: false,
+      title: 'Word Cloud',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
@@ -145,3 +146,6 @@ class SimpleScaffold extends StatelessWidget {
     );
   }
 }
+// myMap.forEach((key, value){
+//   print(key);
+// })
